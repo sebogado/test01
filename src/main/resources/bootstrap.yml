@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: campiste-reservation
+eureka:
+  client:
+  registerWithEureka: true
+  fetchRegistry: true
+  serviceUrl:
+    defaultZone: http://localhost:8888/eureka/
